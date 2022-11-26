@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>설문조사 예제</title>
+</head>
+<body>
+<p align="center"><font size="5"><b>고객설문조사</b></font><font size="3">
+<tr>
+<td><form name="form" method="post" action="custom_input.php">
+<p>1. 이름을 입력해주세요<br>
+<input type="text" name="name"></p>
+<p>2. 나이를 입력해주세요<br>
+<input type="text" name="age"></p>
+<p>3. 주소를 입력해주세요<br>
+<input type="text" name="address"></p>
+<p>4. 휴대폰 번호를 입력해주세요<br>
+<input type="text" name="hp_num"></p>   
+<p>5. 어떤 언어를 선호하나요? <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question1" value="1">Java<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question1" value="2">C언어<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question1" value="3">C++<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question1" value="4">Php<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question1" value="5">Python<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question1" value="6">Kotlin</p>
+<p>6 프로그밍 실력은 ?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question2" value="1">아주 잘 함<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question2" value="2">조금 잘 함<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question2" value="3">보통<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question2" value="4">못함<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question2" value="5">아주 못함<br></p>
+<p>7. 가고 싶은 회사를 선택해주세요<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<select name = "question3">
+<option value="kakao">카카오</option>
+<option value="google">구글 </option>
+<option value="naver">네이버</option></select></p>
+<p>8. 대학교 수업에서 배운 내용은 쓸 모가 있나요?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question4" value="1">아주 도움됨<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question4" value="2">조금 도움됨<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question4" value="3">적당히도움됨<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question4" value="4">별로 도움안됨<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="question4" value="5">도움 안됨<br></p>
+<p>9. 어떤 수업을 개설하면 좋을까요?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<textarea name="question5" rows="3" cols="50"></textarea></p>    
+<p>10. 미래에 하고 싶은 일은 무엇인가요?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<textarea name="question6" rows="3" cols="50"></textarea></p>
+<p align="center"><input type="submit" value="입력">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" value="취소"></p></form></td></tr></font></p></body></html>
